@@ -1,0 +1,436 @@
+{
+  "class_summary": {
+    "total_students": 10,
+    "class_average": 71.16,
+    "highest_average": 95.0,
+    "lowest_average": 40.0,
+    "pass_rate": 70.0,
+    "subject_averages": {
+      "art": 71.1,
+      "english": 71.3,
+      "history": 70.4,
+      "math": 71.0,
+      "science": 72.0
+    },
+    "top_performers": [
+      "Emma Davis",
+      "Alice Johnson"
+    ],
+    "at_risk_students": [
+      "David Brown",
+      "Henry Moore",
+      "Jack Anderson"
+    ]
+  },
+  "student_reports": [
+    {
+      "student_id": "S001",
+      "name": "Alice Johnson",
+      "grades": {
+        "math": 92.0,
+        "science": 88.0,
+        "english": 95.0,
+        "history": 90.0,
+        "art": 87.0
+      },
+      "average": 90.4,
+      "letter_grade": "A",
+      "performance_level": "Excellent",
+      "passed_subjects": 5,
+      "failed_subjects": 0,
+      "strongest_subject": "english",
+      "weakest_subject": "art"
+    },
+    {
+      "student_id": "S002",
+      "name": "Bob Smith",
+      "grades": {
+        "math": 65.0,
+        "science": 70.0,
+        "english": 58.0,
+        "history": 62.0,
+        "art": 72.0
+      },
+      "average": 65.4,
+      "letter_grade": "D",
+      "performance_level": "Below Average",
+      "passed_subjects": 4,
+      "failed_subjects": 1,
+      "strongest_subject": "art",
+      "weakest_subject": "english"
+    },
+    {
+      "student_id": "S003",
+      "name": "Carol Williams",
+      "grades": {
+        "math": 78.0,
+        "science": 82.0,
+        "english": 80.0,
+        "history": 75.0,
+        "art": 79.0
+      },
+      "average": 78.8,
+      "letter_grade": "C",
+      "performance_level": "Average",
+      "passed_subjects": 5,
+      "failed_subjects": 0,
+      "strongest_subject": "science",
+      "weakest_subject": "history"
+    },
+    {
+      "student_id": "S004",
+      "name": "David Brown",
+      "grades": {
+        "math": 45.0,
+        "science": 52.0,
+        "english": 48.0,
+        "history": 50.0,
+        "art": 55.0
+      },
+      "average": 50.0,
+      "letter_grade": "F",
+      "performance_level": "Needs Improvement",
+      "passed_subjects": 0,
+      "failed_subjects": 5,
+      "strongest_subject": "art",
+      "weakest_subject": "math"
+    },
+    {
+      "student_id": "S005",
+      "name": "Emma Davis",
+      "grades": {
+        "math": 96.0,
+        "science": 94.0,
+        "english": 98.0,
+        "history": 92.0,
+        "art": 95.0
+      },
+      "average": 95.0,
+      "letter_grade": "A",
+      "performance_level": "Excellent",
+      "passed_subjects": 5,
+      "failed_subjects": 0,
+      "strongest_subject": "english",
+      "weakest_subject": "history"
+    },
+    {
+      "student_id": "S006",
+      "name": "Frank Miller",
+      "grades": {
+        "math": 72.0,
+        "science": 68.0,
+        "english": 74.0,
+        "history": 70.0,
+        "art": 66.0
+      },
+      "average": 70.0,
+      "letter_grade": "C",
+      "performance_level": "Average",
+      "passed_subjects": 5,
+      "failed_subjects": 0,
+      "strongest_subject": "english",
+      "weakest_subject": "art"
+    },
+    {
+      "student_id": "S007",
+      "name": "Grace Wilson",
+      "grades": {
+        "math": 88.0,
+        "science": 85.0,
+        "english": 90.0,
+        "history": 87.0,
+        "art": 84.0
+      },
+      "average": 86.8,
+      "letter_grade": "B",
+      "performance_level": "Good",
+      "passed_subjects": 5,
+      "failed_subjects": 0,
+      "strongest_subject": "english",
+      "weakest_subject": "art"
+    },
+    {
+      "student_id": "S008",
+      "name": "Henry Moore",
+      "grades": {
+        "math": 55.0,
+        "science": 60.0,
+        "english": 52.0,
+        "history": 58.0,
+        "art": 50.0
+      },
+      "average": 55.0,
+      "letter_grade": "F",
+      "performance_level": "Needs Improvement",
+      "passed_subjects": 1,
+      "failed_subjects": 4,
+      "strongest_subject": "science",
+      "weakest_subject": "art"
+    },
+    {
+      "student_id": "S009",
+      "name": "Ivy Taylor",
+      "grades": {
+        "math": 81.0,
+        "science": 79.0,
+        "english": 83.0,
+        "history": 80.0,
+        "art": 78.0
+      },
+      "average": 80.2,
+      "letter_grade": "B",
+      "performance_level": "Good",
+      "passed_subjects": 5,
+      "failed_subjects": 0,
+      "strongest_subject": "english",
+      "weakest_subject": "art"
+    },
+    {
+      "student_id": "S010",
+      "name": "Jack Anderson",
+      "grades": {
+        "math": 38.0,
+        "science": 42.0,
+        "english": 35.0,
+        "history": 40.0,
+        "art": 45.0
+      },
+      "average": 40.0,
+      "letter_grade": "F",
+      "performance_level": "Needs Improvement",
+      "passed_subjects": 0,
+      "failed_subjects": 5,
+      "strongest_subject": "art",
+      "weakest_subject": "english"
+    }
+  ],
+  "subject_statistics": {
+    "art": {
+      "mean": 71.1,
+      "median": 75.0,
+      "min": 45.0,
+      "max": 95.0,
+      "std_dev": 16.71
+    },
+    "english": {
+      "mean": 71.3,
+      "median": 77.0,
+      "min": 35.0,
+      "max": 98.0,
+      "std_dev": 21.74
+    },
+    "history": {
+      "mean": 70.4,
+      "median": 72.5,
+      "min": 40.0,
+      "max": 92.0,
+      "std_dev": 17.65
+    },
+    "math": {
+      "mean": 71.0,
+      "median": 75.0,
+      "min": 38.0,
+      "max": 96.0,
+      "std_dev": 19.89
+    },
+    "science": {
+      "mean": 72.0,
+      "median": 74.5,
+      "min": 42.0,
+      "max": 94.0,
+      "std_dev": 16.74
+    }
+  },
+  "rankings": [
+    {
+      "rank": 1,
+      "student_id": "S005",
+      "name": "Emma Davis",
+      "grades": {
+        "math": 96.0,
+        "science": 94.0,
+        "english": 98.0,
+        "history": 92.0,
+        "art": 95.0
+      },
+      "average": 95.0,
+      "letter_grade": "A",
+      "performance_level": "Excellent",
+      "passed_subjects": 5,
+      "failed_subjects": 0,
+      "strongest_subject": "english",
+      "weakest_subject": "history"
+    },
+    {
+      "rank": 2,
+      "student_id": "S001",
+      "name": "Alice Johnson",
+      "grades": {
+        "math": 92.0,
+        "science": 88.0,
+        "english": 95.0,
+        "history": 90.0,
+        "art": 87.0
+      },
+      "average": 90.4,
+      "letter_grade": "A",
+      "performance_level": "Excellent",
+      "passed_subjects": 5,
+      "failed_subjects": 0,
+      "strongest_subject": "english",
+      "weakest_subject": "art"
+    },
+    {
+      "rank": 3,
+      "student_id": "S007",
+      "name": "Grace Wilson",
+      "grades": {
+        "math": 88.0,
+        "science": 85.0,
+        "english": 90.0,
+        "history": 87.0,
+        "art": 84.0
+      },
+      "average": 86.8,
+      "letter_grade": "B",
+      "performance_level": "Good",
+      "passed_subjects": 5,
+      "failed_subjects": 0,
+      "strongest_subject": "english",
+      "weakest_subject": "art"
+    },
+    {
+      "rank": 4,
+      "student_id": "S009",
+      "name": "Ivy Taylor",
+      "grades": {
+        "math": 81.0,
+        "science": 79.0,
+        "english": 83.0,
+        "history": 80.0,
+        "art": 78.0
+      },
+      "average": 80.2,
+      "letter_grade": "B",
+      "performance_level": "Good",
+      "passed_subjects": 5,
+      "failed_subjects": 0,
+      "strongest_subject": "english",
+      "weakest_subject": "art"
+    },
+    {
+      "rank": 5,
+      "student_id": "S003",
+      "name": "Carol Williams",
+      "grades": {
+        "math": 78.0,
+        "science": 82.0,
+        "english": 80.0,
+        "history": 75.0,
+        "art": 79.0
+      },
+      "average": 78.8,
+      "letter_grade": "C",
+      "performance_level": "Average",
+      "passed_subjects": 5,
+      "failed_subjects": 0,
+      "strongest_subject": "science",
+      "weakest_subject": "history"
+    },
+    {
+      "rank": 6,
+      "student_id": "S006",
+      "name": "Frank Miller",
+      "grades": {
+        "math": 72.0,
+        "science": 68.0,
+        "english": 74.0,
+        "history": 70.0,
+        "art": 66.0
+      },
+      "average": 70.0,
+      "letter_grade": "C",
+      "performance_level": "Average",
+      "passed_subjects": 5,
+      "failed_subjects": 0,
+      "strongest_subject": "english",
+      "weakest_subject": "art"
+    },
+    {
+      "rank": 7,
+      "student_id": "S002",
+      "name": "Bob Smith",
+      "grades": {
+        "math": 65.0,
+        "science": 70.0,
+        "english": 58.0,
+        "history": 62.0,
+        "art": 72.0
+      },
+      "average": 65.4,
+      "letter_grade": "D",
+      "performance_level": "Below Average",
+      "passed_subjects": 4,
+      "failed_subjects": 1,
+      "strongest_subject": "art",
+      "weakest_subject": "english"
+    },
+    {
+      "rank": 8,
+      "student_id": "S008",
+      "name": "Henry Moore",
+      "grades": {
+        "math": 55.0,
+        "science": 60.0,
+        "english": 52.0,
+        "history": 58.0,
+        "art": 50.0
+      },
+      "average": 55.0,
+      "letter_grade": "F",
+      "performance_level": "Needs Improvement",
+      "passed_subjects": 1,
+      "failed_subjects": 4,
+      "strongest_subject": "science",
+      "weakest_subject": "art"
+    },
+    {
+      "rank": 9,
+      "student_id": "S004",
+      "name": "David Brown",
+      "grades": {
+        "math": 45.0,
+        "science": 52.0,
+        "english": 48.0,
+        "history": 50.0,
+        "art": 55.0
+      },
+      "average": 50.0,
+      "letter_grade": "F",
+      "performance_level": "Needs Improvement",
+      "passed_subjects": 0,
+      "failed_subjects": 5,
+      "strongest_subject": "art",
+      "weakest_subject": "math"
+    },
+    {
+      "rank": 10,
+      "student_id": "S010",
+      "name": "Jack Anderson",
+      "grades": {
+        "math": 38.0,
+        "science": 42.0,
+        "english": 35.0,
+        "history": 40.0,
+        "art": 45.0
+      },
+      "average": 40.0,
+      "letter_grade": "F",
+      "performance_level": "Needs Improvement",
+      "passed_subjects": 0,
+      "failed_subjects": 5,
+      "strongest_subject": "art",
+      "weakest_subject": "english"
+    }
+  ]
+}
